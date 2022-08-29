@@ -1,10 +1,8 @@
 const functions = require("firebase-functions");
 
-//const p = require("./config");
 const FBAuth = require("./util/fbAuth");
 const { db } = require("./util/admin");
-const {  login, getAuthenticatedUser,pizza,cont ,subs} = require("./handlers/users");
-
+const {  login, getAuthenticatedUser,pizza,cont ,subs} = require("./handlers/users"
 const {
   getAllBlogs,
   postOneBlog,
